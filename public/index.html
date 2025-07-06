@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe WebSocket</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <div id="status">Connecting...</div>
+  <div id="board"></div>
+
+  <button id="restartBtn" style="display:none;">🔁 New Game</button>
+  <div id="history"></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
